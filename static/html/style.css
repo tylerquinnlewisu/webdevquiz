@@ -114,7 +114,6 @@ body{
     border-radius: 5px;
     margin-bottom: 10px; 
     cursor: pointer; 
-    text-transform: capitalize;
     animation: fadeIn 0.3s ease forwards;
     position: relative;
     overflow: hidden;
