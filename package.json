@@ -1,0 +1,22 @@
+{
+  "name": "webdevquiz",
+  "version": "1.0.0",
+  "description": "This will be an application which allows the user to play a quiz game over a number of different web development concepts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tylerquinnlewisu/webdevquiz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tylerquinnlewisu/webdevquiz/issues"
+  },
+  "homepage": "https://github.com/tylerquinnlewisu/webdevquiz#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
