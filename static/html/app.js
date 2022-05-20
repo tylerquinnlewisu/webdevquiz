@@ -211,7 +211,7 @@ window.onload = function(){
     // to create indicator of answers 
     answersIndicator(); 
 
-    homeBox.querySelector(".total-question").innerHTML = quiz.length; 
+    //homeBox.querySelector(".total-question").innerHTML = quiz.length; 
 
 
 
