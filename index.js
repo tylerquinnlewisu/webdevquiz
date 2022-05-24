@@ -16,13 +16,25 @@ app.use(express.static(__dirname + '/static'))
 //HTML quiz app on the server
 app.get('/html', (request, response) => {
 	app.use(express.static(__dirname + '/html'))
-    response.sendFile(path.join(__dirname + '/teamsknoweachother/index.html'))
+    response.sendFile(path.join(__dirname + '/html/index.html'))
 })
 
 //CSS quiz app on the server
 app.get('/css', (request, response) => {
 	app.use(express.static(__dirname + '/css'))
     response.sendFile(path.join(__dirname + '/css/index.html'))
+})
+
+//Bootstrap quiz app on the server
+app.get('/css', (request, response) => {
+	app.use(express.static(__dirname + '/bootstrap'))
+    response.sendFile(path.join(__dirname + '/bootstrap/index.html'))
+})
+
+//Algorithms and Data Structures quiz app on the server
+app.get('/css', (request, response) => {
+	app.use(express.static(__dirname + '/algorithmsanddatastructures'))
+    response.sendFile(path.join(__dirname + '/algorithmsanddatastructures/index.html'))
 })
 
 // Custom 404 page.
