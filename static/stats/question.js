@@ -566,7 +566,7 @@ const quiz = [
     */
     
 
-    /* Exam 2 Notes 10 - Discrete Random Variables */
+    /* Exam 2 Notes 10 - Discrete Random Variables 
     {
         q:'What is a random variable?',
         options:['Assigns a numerical value to each outcome in a sample space.'],
@@ -584,7 +584,7 @@ const quiz = [
     },
     {
         q:'For discrete random variables, probability distributions are also referred to as what?',
-        options:['Probability mass functions'],
+        options:['Probability mass functions','Probability density function'],
         answer:0
     },
     {
@@ -642,8 +642,12 @@ const quiz = [
         options:['See Example 4 from Notes Packet 10 - Discrete Random Variables'],
         answer:0
     },
+    */
 
-    /* Exam 2 Notes 11 - Discrete Random Variables */
+
+
+
+    /* Exam 2 Notes 11 - Discrete Random Variables 
 
     {
         q:'What is a statistical inference?',
@@ -745,8 +749,111 @@ const quiz = [
         options:['Variance = np','Variance = np(1-p)'],
         answer:1
     },
+    {
+        q:'If the probability (p) associated with a certain Bernoulli trial is not provided, how can it be estimated?',
+        options:['x/n','n/x'],
+        answer:0
+    },
+    {
+        q:'The safety commissioner in a large city wants to estimate the proportion of buildings in the city that are in violation of fire codes. A random sample of 40 buildings is chosen for inspection, and 4 of them are found to have fire code violations. Estimate the proportion of buildings in the city that have fire code violations.',
+        options:['.1','.2'],
+        answer:0
+    },
+    {
+        q:'A Poisson Distribution is used to describe what?',
+        options:['Certain events that occur in time or space','A random variable that represents the number of successes in a series of trials'],
+        answer:0
+    },
+    {
+        q:'A Poisson Distribution describes discrete or continuous variables?',
+        options:['Discrete','Continuous'],
+        answer:0
+    },
+    {
+        q:'How is Poisson Distribution represented?',
+        options:['X~Poisson(λ)','X:Poisson(λ)'],
+        answer:0
+    },
+    {
+        q:'What is the Poisson Probability Mass Function?',
+        options:['p(x) = P(X = x) = {e^-λ * (λ^x / x!), x is a non-negative integer; o, otherwise','p(x) = P(X = x) = {λ^e * (λ^x / x^2), x is a non-negative integer; o, otherwise'],
+        answer:0
+    },
+    {
+        q:'How do you find λ for Poisson Probability?',
+        options:['λ = kt','λ = k/t'],
+        answer:0
+    },
+    {
+        q:'What is the Poisson Probability Function calculator formula? ',
+        options:['poissonpdf(λ,x)','poissonpdf(x,λ)'],
+        answer:0
+    },
+    {
+        q:'The number of hits a certain website follows a Poisson distribution with 3 hits per minute. Let X be the number of hits in a 2-minute period. What is p(5)? ',
+        options:['.16','.14'],
+        answer:0
+    },
+    {
+        q:'The number of hits a certain website follows a Poisson distribution with 3 hits per minute. Let X be the number of hits in a 2-minute period. What is P(X<3)? ',
+        options:['.062','.62'],
+        answer:0
+    },
+    {
+        q:'The number of hits a certain website follows a Poisson distribution with 3 hits per minute. Let X be the number of hits in a 2-minute period. What is P(X>2)? ',
+        options:['.938','.972'],
+        answer:0
+    },
+    {
+        q:'What method can be used to solve for the Poisson of an infinite sum? ',
+        options:['Take 1 - (the complement)'],
+        answer:0
+    },
+    {
+        q:'Yeast cells are suspended in a liquid medium at a concentration of 4 particles per milliliter. A volume of 2 milliliters is withdrawn. What is the probability that exactly 6 particles are contained in this volume?',
+        options:['.1221','.1211'],
+        answer:0
+    },
+    {
+        q:'What is the mean for Poisson random variables? ',
+        options:['λ','square root of λ'],
+        answer:0
+    },
+    {
+        q:'What is the variance for Poisson random variables? ',
+        options:['λ','square root of λ'],
+        answer:0
+    },
+    {
+        q:'What is the standard deviation for Poisson random variables? ',
+        options:['λ','square root of λ'],
+        answer:1
+    },
+    */
 
 
-    
+    /* Exam 2 Notes 12 - Continuous Random Variables */
+    {
+        q:'For a continuous random variable X, what is P(X = a), where a is any one number? ',
+        options:['P(X = a) = 0','P(X = a) = 1'],
+        answer:0
+    },
+    {
+        q:'A continuous random variable is what? ',
+        options:['A random variable whose probabilities are represented by areas under a curve','A random variable whose probabilities are represented by areas above a curve'],
+        answer:0
+    },
+    {
+        q:'A probability distribution for a continuous random variable is referred to as what? ',
+        options:['Probability density function','Probability mass function'],
+        answer:0
+    },
+    /*
+    {
+        q:'Let X be a continuous random variable with probability density function f(x). The cumulative distributive function of X is what function? ',
+        options:['See Definition 1 in Notes 12 - Continuous Random Variables'],
+        answer:0
+    },
+    */
 
 ]
